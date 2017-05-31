@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-New_tours_Demo_Suite">
+              <span class="suite-name border-passed">New tours Demo Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-New_tours_Demo_Suite">
+                    <span>F:\SeleniumPractice\Shaik\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-New_tours_Demo_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-New_tours_Demo_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-New_tours_Demo_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-New_tours_Demo_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-New_tours_Demo_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-New_tours_Demo_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-New_tours_Demo_Suite" class="hide-methods passed suite-New_tours_Demo_Suite"> (hide)</a> <!-- hide-methods passed suite-New_tours_Demo_Suite -->
+                      <a href="#" panel-name="suite-New_tours_Demo_Suite" class="show-methods passed suite-New_tours_Demo_Suite"> (show)</a> <!-- show-methods passed suite-New_tours_Demo_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-New_tours_Demo_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_tours_Demo_Suite" title="day28.testNGsuite.BookAFlight" hash-for-method="bookFlight">bookFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_tours_Demo_Suite" title="day28.testNGsuite.FlightConfirmation" hash-for-method="confirmFlight">confirmFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_tours_Demo_Suite" title="day28.testNGsuite.FindAFlight" hash-for-method="flightFinder">flightFinder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_tours_Demo_Suite" title="day28.testNGsuite.Login" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-New_tours_Demo_Suite" title="day28.testNGsuite.SelectAFlight" hash-for-method="selectFlight">selectFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-New_tours_Demo_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-New_tours_Demo_Suite" class="panel New_tours_Demo_Suite">
+          <div class="suite-New_tours_Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day28.testNGsuite.FlightConfirmation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmFlight">
+                  </a> <!-- confirmFlight -->
+                  <span class="method-name">confirmFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-New_tours_Demo_Suite-class-passed -->
+          <div class="suite-New_tours_Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day28.testNGsuite.BookAFlight</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookFlight">
+                  </a> <!-- bookFlight -->
+                  <span class="method-name">bookFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-New_tours_Demo_Suite-class-passed -->
+          <div class="suite-New_tours_Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day28.testNGsuite.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-New_tours_Demo_Suite-class-passed -->
+          <div class="suite-New_tours_Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day28.testNGsuite.FindAFlight</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightFinder">
+                  </a> <!-- flightFinder -->
+                  <span class="method-name">flightFinder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-New_tours_Demo_Suite-class-passed -->
+          <div class="suite-New_tours_Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day28.testNGsuite.SelectAFlight</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectFlight">
+                  </a> <!-- selectFlight -->
+                  <span class="method-name">selectFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-New_tours_Demo_Suite-class-passed -->
+        </div> <!-- panel New_tours_Demo_Suite -->
+        <div panel-name="test-xml-New_tours_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\SeleniumPractice\Shaik\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;New tours Demo Suite&quot;&gt;
+  &lt;test name=&quot;End to end Testing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;day28.testNGsuite.Login&quot;/&gt;
+      &lt;class name=&quot;day28.testNGsuite.FindAFlight&quot;/&gt;
+      &lt;class name=&quot;day28.testNGsuite.SelectAFlight&quot;/&gt;
+      &lt;class name=&quot;day28.testNGsuite.BookAFlight&quot;/&gt;
+      &lt;class name=&quot;day28.testNGsuite.FlightConfirmation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- End to end Testing --&gt;
+&lt;/suite&gt; &lt;!-- New tours Demo Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-New_tours_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for New tours Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">End to end Testing (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-New_tours_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for New tours Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-New_tours_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for New tours Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_New_tours_Demo_Suite');
+function tableData_New_tours_Demo_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'day28.testNGsuite.Login')
+data.setCell(0, 3, 111049);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'flightFinder')
+data.setCell(1, 2, 'day28.testNGsuite.FindAFlight')
+data.setCell(1, 3, 6028);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectFlight')
+data.setCell(2, 2, 'day28.testNGsuite.SelectAFlight')
+data.setCell(2, 3, 2551);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bookFlight')
+data.setCell(3, 2, 'day28.testNGsuite.BookAFlight')
+data.setCell(3, 3, 1407);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'confirmFlight')
+data.setCell(4, 2, 'day28.testNGsuite.FlightConfirmation')
+data.setCell(4, 3, 92);
+window.suiteTableData['New_tours_Demo_Suite']= { tableData: data, tableDiv: 'times-div-New_tours_Demo_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-New_tours_Demo_Suite">
+              </div> <!-- times-div-New_tours_Demo_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-New_tours_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for New tours Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-New_tours_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-New_tours_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">day28.testNGsuite.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day28.testNGsuite.FindAFlight</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">flightFinder</span>
+                <span class="method-start">111057 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day28.testNGsuite.SelectAFlight</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectFlight</span>
+                <span class="method-start">117090 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day28.testNGsuite.BookAFlight</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bookFlight</span>
+                <span class="method-start">119651 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day28.testNGsuite.FlightConfirmation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">confirmFlight</span>
+                <span class="method-start">121062 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
